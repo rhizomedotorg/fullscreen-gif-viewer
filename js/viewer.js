@@ -14,7 +14,7 @@ function nextFrame() {
 }
 
 $(document).ready(function() {
-    var myTimer = setInterval(function(){
+    var myTimer = setInterval(function() {
         $('.spinner').html(nextFrame());
     }, 100);
 
