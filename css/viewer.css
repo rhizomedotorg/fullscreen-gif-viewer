@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#loading {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    margin: 200px auto 0 auto;
+}
+
+#gif {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
