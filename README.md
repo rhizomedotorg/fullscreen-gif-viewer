@@ -13,4 +13,4 @@ $ cd /path/to/artwork_dir
 $ mv example.html index.html
 ```
 
-Replace "path/to/file.gif" in index.html with a the actual path/url to your GIF.
+Replace "path/to/some/file.gif" in index.html with a the actual path/url to your GIF.
