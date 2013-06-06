@@ -12,6 +12,13 @@ body, html {
     margin: 200px auto 0 auto;
 }
 
+#gif.portrait {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    background-attachment: scroll;
+}
+
 #gif {
     position: absolute;
     left: 0;
