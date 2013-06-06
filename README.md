@@ -10,7 +10,10 @@ Setup
 ```bash
 $ git clone git@github.com:rhizomedotorg/fullscreen-gif-viewer.git /path/to/artwork_dir
 $ cd /path/to/artwork_dir
-$ mv example.html index.html
 ```
 
-Replace "path/to/some/file.gif" in index.html with the relative path (or URL) to your GIF
+Replace "path/to/some/file.gif" in [example.html](example.html) with your path or URL
+
+```bash
+$ mv example.html index.html
+```
