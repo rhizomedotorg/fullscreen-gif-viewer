@@ -1,7 +1,7 @@
 fullscreen-gif-viewer
 =====================
 
-A simple app for fullscreen GIF playback. GIFs are loaded in the background with an ASCII loading indicator.   
+An app for fullscreen GIF playback. GIFs are loaded in the background with an ASCII loading indicator.   
 [Live demo](http://archive.rhizome.org/darling-rhizomeseries/maja2.html)
 
 Setup
