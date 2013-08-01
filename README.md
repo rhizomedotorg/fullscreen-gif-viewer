@@ -17,3 +17,7 @@ Replace "path/to/some/file.gif" in [example.html](example.html) with your path o
 ```bash
 $ mv example.html index.html
 ```
+
+Optional classes for #gif
+* portrait
+* nearest-neighbor

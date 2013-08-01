@@ -1,3 +1,6 @@
+img { 
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -17,6 +20,14 @@ body, html {
     height: 100%;
     margin: 0 auto;
     background-attachment: scroll;
+}
+
+#gif.nearest-neighbor {
+    image-rendering: optimizeSpeed; 
+    image-rendering: -moz-crisp-edges; 
+    image-rendering: -o-crisp-edges; 
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */
 }
 
 #gif {
