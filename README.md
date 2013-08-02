@@ -1,4 +1,4 @@
-fullscreen-gif-viewer
+GIFZoomer - fullscreen-gif-viewer
 =====================
 
 An app for fullscreen GIF playback. GIFs are loaded in the background with an ASCII loading indicator.   
