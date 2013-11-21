@@ -18,11 +18,11 @@ $(document).ready(function() {
         $('.spinner').html(nextFrame());
     }, 100);
 
-    var src = $('#zoomer-img').data('src');
+    var src = $('.zoomer-img').data('src');
 
     preloadImage(src, function(img) {
         clearInterval(myTimer);
-        $('#zoomer-loading').hide();
-        $('#zoomer-img').css('background-image', 'url(' + src + ')');
+        $('.zoomer-loading').hide();
+        $('.zoomer-img').css('background-image', 'url(' + src + ')');
     });
 });
