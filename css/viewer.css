@@ -3,7 +3,7 @@ body, html {
     padding: 0;
 }
 
-#loading {
+#zoomer-loading {
     display: block;
     width: 100px;
     text-align: center;
@@ -12,14 +12,14 @@ body, html {
     margin: 200px auto 0 auto;
 }
 
-#gif.portrait {
+#zoomer-img.portrait {
     width: 40%;
     height: 100%;
     margin: 0 auto;
     background-attachment: scroll;
 }
 
-#gif.nearest-neighbor {
+#zoomer-img.nearest-neighbor {
     image-rendering: optimizeSpeed; 
     image-rendering: -moz-crisp-edges; 
     image-rendering: -o-crisp-edges; 
@@ -27,13 +27,13 @@ body, html {
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */
 }
 
-#gif {
+#zoomer-img {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    background: no-repeat center center fixed;
+    background: no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
