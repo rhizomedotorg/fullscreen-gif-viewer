@@ -18,6 +18,6 @@ Replace "path/to/some/file.gif" in [example.html](example.html) with your path o
 $ mv example.html index.html
 ```
 
-Optional classes for #zoomer-img
+Optional classes for .zoomer-img
 * portrait
 * nearest-neighbor
