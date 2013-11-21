@@ -1,7 +1,7 @@
 GIFZoomer - fullscreen-gif-viewer
 =====================
 
-An app for fullscreen GIF playback. GIFs are loaded in the background with an ASCII loading indicator.   
+An app for fullscreen GIF playback. GIFs are loaded in the background with an ASCII loading indicator. Works with other image formats as well.
 [Live demo](http://archive.rhizome.org/darling-rhizomeseries/jake1.html)
 
 Setup
