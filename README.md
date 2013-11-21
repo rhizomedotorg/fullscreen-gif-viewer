@@ -21,3 +21,5 @@ $ mv example.html index.html
 Optional classes for .zoomer-img
 * portrait
 * nearest-neighbor
+
+Requires [jQuery](http://jquery.com/).
